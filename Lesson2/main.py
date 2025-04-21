@@ -1,6 +1,6 @@
 from pathlib import Path
 
-path = Path("Unit-3/Lesson2/programming.txt") # copy relative path
+path = Path("CMP2_Unit-3/Lesson2/programming.txt") # copy relative path
 path.write_text("I love Python!!")
 contents = path.read_text() # save current text of file
 contents += "\nJava is pretty good too" # add new text
